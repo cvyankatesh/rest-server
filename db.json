@@ -11,7 +11,7 @@
     {"id": 1, "username": "vyanky", "password": "123"},
     {"id": 2, "username": "vyanky2", "password": "1234"}
   ],
-  campaigns: [
+  "campaigns": [
 	{
 		"campaign_id": 1,
 		"campaign_name": "Test Campaign",
