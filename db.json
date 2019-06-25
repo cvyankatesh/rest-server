@@ -1,6 +1,6 @@
 {
 	"campaigns": [{
-		"campaign_id": 1,
+		"id": 1,
 		"campaign_name": "Test Campaign",
 		"campaign_type": "CPL",
 		"preview_url": "https://google.com",
@@ -46,5 +46,54 @@
 		],
 		"campaign_visibility": "Private",
 		"campaign_status": true
-	}]
+	},
+	{
+		"id": 2,
+		"campaign_name": "Test Campaign 2",
+		"campaign_type": "CPL",
+		"preview_url": "https://google.com",
+		"start_date": "2019-12-02",
+		"end_date": "2019-12-03",
+		"advertiser": 1,
+		"landing_pages": [{
+				"lp_id": 1,
+				"lp_name": "Landing Page 1",
+				"lp_url": "https://google.com",
+				"is_active": true
+			},
+			{
+				"lp_id": 2,
+				"lp_name": "Landing Page 2",
+				"lp_url": "https://facebook.com",
+				"is_active": false
+			}, {
+				"lp_id": 3,
+				"lp_name": "Landing Page 3",
+				"lp_url": "https://youtube.com",
+				"is_active": true
+			}
+		],
+		"campaign_description": "Its campaign description",
+		"revenue": 100,
+		"payout": 80,
+		"total_cap": 500,
+		"daily_cap": 30,
+		"allowed_affiliates": [1001, 1002, 1003, 1004],
+		"pixels": [{
+				"affiliate_id": 1001,
+				"pixel": "https://postback-url.com"
+			},
+			{
+				"affiliate_id": 1003,
+				"pixel": "https://postback-url.com"
+			},
+			{
+				"affiliate_id": 1002,
+				"pixel": "https://postback-url.com"
+			}
+		],
+		"campaign_visibility": "Private",
+		"campaign_status": true
+	}
+		     ]
 }
