@@ -35,8 +35,8 @@
 			{ "affiliate_id": 1001, "pixel": "https://postback-url.com" },
 			{ "affiliate_id": 1003, "pixel": "https://postback-url.com" },
 			{ "affiliate_id": 1002, "pixel": "https://postback-url.com" }
-		]
-		"campaign_visibility": "Private"
+		],
+		"campaign_visibility": "Private",
 		"campaign_status": true,
 	}
   ]
